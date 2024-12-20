@@ -6,17 +6,16 @@
 ```javascript
 const aboutMe = {
    Name: "Travis Fernandes" ,
-   code: [Javascript, HTML, Tailwindcss, Python, Java, C, C++, GO, Rust],
+   code: [Javascript, HTML, Css, Python, Java, C, C++, GO, Rust],
    technologies: {
       frontEnd: {
          js: ["React", "NextJS"],
-         css: ["ShadCN", "Flowbite", "Bootstrap", "Material Design", "Chakra UI"]
+         css: ["ShadCN", "Flowbite", "TailwindCSS", "Bootstrap", "Material Design", "Chakra UI"]
       },
       backEnd: {
-         java: ["Spring"],
-         js: ["Node", "Express",Expo],
+         js: ["Node", "Express","Expo","Electron"],
          Golang: ["Fiber"],
-         misc: ["Bash", "Docker", "Selenium", "Cypress"]
+         misc: ["Bash", "Docker"]
       },
       databases: ["MongoDB", "mySQL", "sqlite"],
       devices: ["Android", "Desktops","Web"]
