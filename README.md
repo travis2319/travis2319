@@ -57,7 +57,11 @@ const aboutMe = {
 
 ###
 
-<img align="right" height="200" src="https://media1.tenor.com/m/9xrr9sVKssgAAAAd/garou-gif.gif"  />
+<img 
+  src="https://media1.tenor.com/m/9xrr9sVKssgAAAAd/garou-gif.gif" 
+  style="float: right; height: 200px; margin-left: 10px; border-radius: 50px;" 
+  alt="Garou GIF" 
+/>
 
 ###
 
