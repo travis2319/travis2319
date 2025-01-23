@@ -6,7 +6,7 @@
 ```javascript
 const aboutMe = {
    Name: "Travis Fernandes" ,
-   code: [Javascript, HTML, Css, Python, Java, C, C++, GO, Rust],
+   code: [Javascript, Html, Css, Python, Java, C, C++, Go, Rust],
    technologies: {
       frontEnd: {
          js: ["React", "NextJS"],
