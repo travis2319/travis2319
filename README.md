@@ -18,7 +18,8 @@ const aboutMe = {
          misc: ["Bash", "Docker"]
       },
       databases: ["MongoDB", "mySQL", "sqlite"],
-      devices: ["Android", "Desktops","Web","Raspberry Pi","Iot"]
+      devices: ["Android", "Desktops","Web","Raspberry Pi","Iot"],
+      baas: ["Supabase","Firebase"]
    },
    currentOccupation: ["Final year student, open for job opportunities"],
    challenge: "I'm working towards being able to run a marathon.",
