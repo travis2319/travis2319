@@ -1,0 +1,201 @@
+%-------------------------
+% Resume in Latex
+% Author : Travis Fernandes
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape TRAVIS FERNANDES} \\ \vspace{1pt}
+    \small +91 8329183485 $|$ \href{mailto:travisfernandes2327@gmail.com}{\underline{travisfernandes2327@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/travisfernandez}{\underline{linkedin.com/in/travisfernandez}} $|$
+    \href{https://github.com/travis2319}{\underline{github.com/travis2319}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Padre Conceicao College Of Engineering}{Verna, Goa}
+            {Bachelor of Engineering in Computer Science, Major in AI/ML}{Expected June 2025}
+        \resumeItemListStart
+            \resumeItem{Cumulative GPA: 7.5/10}
+            \resumeItem{Relevant Coursework: Artificial Intelligence, Data Mining, Software Engineering, Operating Systems, Algorithms}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience/Internships}
+  \resumeSubHeadingListStart
+
+        \resumeSubheading
+        {GAME DEVELOPER INTERN}{Jul 2024 -- Aug 2024}
+        {VIRTUAL REALITY STUDIOS, PCCE}{Goa}
+        \resumeItemListStart
+          \resumeItem{Mastered game design fundamentals, Unity physics, and movement mechanics}
+          \resumeItem{Created vibrant pixel art using Krita and co-developed a turn-based Monster Hunter game with a team under the guidance of CEO Lance Randall de Melo}
+        \resumeItemListEnd
+      
+    \resumeSubheading
+      {BITS RESEARCH INTERNSHIP (Research Internship)}{Nov 2023 -- Present}
+      {BITS, Goa}{Intern}
+      \resumeItemListStart
+        \resumeItem{Engineered an automotive black box prototype to capture critical telemetry, driver inputs, and environmental data during accidents}
+        \resumeItem{Streamlined real-time OBD-II data collection, local storage, and server transmission for machine learning analysis}
+        \resumeItem{Built a mobile app to deliver diagnostic insights and vehicle health metrics for seamless monitoring}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {BYTE-UPRISE (Virtual Internship)}{Mar 2024 -- Apr 2024}
+      {Online}{Web Developer Intern}
+      \resumeItemListStart
+        \resumeItem{Developed 4 web projects and earned a Letter of Recommendation}
+        \resumeItem{Built a Weather App, Portfolio Website, Landing Page, and Stopwatch using React and Tailwind CSS for sleek, responsive designs}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Voyage Vista} $|$ \emph{Node.js, Express, MongoDB Atlas, PassportJS}}{Nov 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a website that books flight tickets and stores details in a database}
+            \resumeItem{Implemented authentication features using PassportJS}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Portfolio} $|$ \emph{React, TailwindCSS, Framer Motion}}{Mar 2023}
+          \resumeItemListStart
+            \resumeItem{Created a professional webpage to showcase working projects and contact information}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Retro-UI (Chat App)} $|$ \emph{React, TailwindCSS, Framer Motion, Socket.IO, MongoDB}}{Mar 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a chat application with an old games look}
+            \resumeItem{Implemented real-time communication using Socket.IO}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Police Hackathon}{Sep 2024}
+            {BITS Goa}{}
+            \resumeItemListStart
+            \resumeItem{Won the hackathon by developing a violation pass generation system integrated with the Goa police database (e-challan) and a dashboard to analyze violations across different regions in the state.}
+            \resumeItem{Implemented tamper-proof mechanisms and designed the system to be user-friendly for seamless adoption.}
+            \resumeItem{Built the dashboard and QR code UI using Tailwind CSS and Next.js.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Go, HTML/CSS, Java, JavaScript, Python, Rust, SQL, TypeScript, Bash} \\
+     \textbf{Frameworks}{: React, Expo, FastAPI, Node.js, Express, Flask, Django} \\
+     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, Vercel, Jenkins, Kubernetes, Visual Studio Code} \\
+     \textbf{Libraries}{: pandas, NumPy, Fiber, TensorFlow, Keras, Scikit-learn, Matplotlib, Seaborn} \\
+    }}
+ \end{itemize}
+
+%-----------INVOLVEMENT-----------
+\vspace{2em}
+\begin{center}
+    \small I hereby declare that the details and information given above are complete and true to the best of my knowledge.
+\end{center}
+\end{document}
