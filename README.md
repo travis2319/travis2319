@@ -47,7 +47,7 @@ const aboutMe = {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
   <img width="12" />
-  <img src="https://devicon-website.vercel.app/api/go/original-wordmark.svg" height="30" alt="go logo"  />
+  <img src="https://devicon-website.vercel.app/api/go/original-wordmark.svg" height="40" alt="go logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="30" alt="rust logo"  />
   <img width="12" />
