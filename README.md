@@ -6,22 +6,22 @@
 ```javascript
 const aboutMe = {
    Name: "Travis Fernandes" ,
-   code: [Javascript, Html, Css, Python, Java, C, C++, Go, Rust],
+   code: [Javascript, Typescript, Bash, Python, Java, Go],
    technologies: {
       frontEnd: {
-         js: ["React", "NextJS"],
-         css: ["ShadCN", "Flowbite", "TailwindCSS", "Bootstrap", "Material Design", "Chakra UI"]
+         js: ["Svelte", "React", "NextJS"],
+         css: [ "TailwindCSS"]
       },
       backEnd: {
-         js: ["Node", "Express","Expo","Electron"],
+         js: ["Go", "Expo", "Electron"],
          Golang: ["Fiber"],
          misc: ["Bash", "Docker"]
       },
-      databases: ["MongoDB", "mySQL", "sqlite"],
-      devices: ["Android", "Desktops","Web","Raspberry Pi","Iot"],
+      databases: ["Postgres", "mySQL", "sqlite"],
+      devices: ["Android", "Desktops","Web","Raspberry Pi","Automation"],
       baas: ["Supabase","Firebase"]
    },
-   currentOccupation: ["Final year student, open for job opportunities"],
+   currentOccupation: ["Currently working , open for job opportunities"],
    challenge: "I'm working towards being able to run a marathon.",
 };
 ```
