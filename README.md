@@ -15,8 +15,10 @@ const aboutMe = {
          monitoring: ["Zabbix", "Prometheus", "Grafana", "Wazuh"],
          cloud: ["AWS", "Azure"],
          os: ["Linux", "Ubuntu", "RHEL", "CentOS"],
-         virtualization: ["XenServer", "Proxmox"]
+         virtualization: ["XenServer", "Proxmox"],
+         webServers: ["Nginx", "Apache"]
       },
+      security: ["SonarQube", "Trivy", "Wazuh"],
       databases: ["PostgreSQL", "MySQL", "MSSQL"],
       automation: ["n8n", "Shuffle"],
    },
@@ -56,6 +58,14 @@ const aboutMe = {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg" height="30" alt="grafana logo" />
   <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" height="30" alt="nginx logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg" height="30" alt="apache logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg" height="30" alt="sonarqube logo" />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/Trivy-1904DA?logo=aquasecurity&logoColor=white&style=flat" height="30" alt="trivy badge" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo" />
@@ -67,8 +77,6 @@ const aboutMe = {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/centos/centos-original.svg" height="30" alt="centos logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redhat/redhat-original.svg" height="30" alt="rhel logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" height="30" alt="nginx logo" />
 </div>
 
 ###
