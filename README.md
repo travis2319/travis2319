@@ -7,18 +7,18 @@ const aboutMe = {
    code: [Bash, Python, Go, YAML, HCL, PowerShell],
    technologies: {
       devops: {
-         cicd: ["GitHub Actions", "Jenkins", "ArgoCD"],
-         iac: ["Terraform", "Ansible", "Pulumi"],
+         cicd: ["Jenkins", "GitHub Actions", "ArgoCD"],
+         iac: ["Terraform", "Ansible"],
          containers: ["Docker", "Kubernetes", "Helm"]
       },
       sysops: {
-         monitoring: ["Prometheus", "Grafana", "Loki"],
-         cloud: ["AWS", "Azure", "GCP"],
-         os: ["Linux", "Ubuntu", "RHEL"]
+         monitoring: ["Zabbix", "Prometheus", "Grafana", "Wazuh"],
+         cloud: ["AWS", "Azure"],
+         os: ["Linux", "Ubuntu", "RHEL", "CentOS"],
+         virtualization: ["XenServer", "Proxmox"]
       },
-      databases: ["Postgres", "MySQL", "Redis"],
-      devices: ["Servers", "Raspberry Pi", "Edge Nodes", "Automation"],
-      baas: ["Supabase", "Firebase"]
+      databases: ["PostgreSQL", "MySQL", "MSSQL"],
+      automation: ["n8n", "Shuffle"],
    },
    currentOccupation: ["SysOps Engineer, open for new opportunities"],
    challenge: "I'm working towards being able to run a marathon.",
@@ -40,11 +40,17 @@ const aboutMe = {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" height="30" alt="kubernetes logo" />
   <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/helm/helm-original.svg" height="30" alt="helm logo" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" height="30" alt="terraform logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" height="30" alt="ansible logo" />
   <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="30" alt="jenkins logo" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" height="30" alt="github actions logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/argocd/argocd-original.svg" height="30" alt="argocd logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg" height="30" alt="prometheus logo" />
   <img width="12" />
@@ -52,15 +58,17 @@ const aboutMe = {
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo" />
   <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo" />
+  <img width="12" />
   <img src="https://devicon-website.vercel.app/api/azure/original.svg" height="30" alt="azure logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="30" alt="aws logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" height="30" alt="gcp logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/centos/centos-original.svg" height="30" alt="centos logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redhat/redhat-original.svg" height="30" alt="rhel logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" height="30" alt="nginx logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" height="30" alt="redis logo" />
 </div>
 
 ###
