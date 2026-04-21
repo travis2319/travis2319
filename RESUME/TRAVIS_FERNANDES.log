@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.21)  21 APR 2026 23:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.21)  21 APR 2026 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,8 +302,8 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
 )
-No file Travis_Fernandes.aux.
-\openout1 = `Travis_Fernandes.aux'.
+No file TRAVIS_FERNANDES.aux.
+\openout1 = `TRAVIS_FERNANDES.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
@@ -339,7 +339,7 @@ LaTeX Font Info:    ... okay on input line 73.
 )
 Package hyperref Info: Link coloring OFF on input line 73.
 \@outlinefile=\write3
-\openout3 = `Travis_Fernandes.out'.
+\openout3 = `TRAVIS_FERNANDES.out'.
 
 
 
@@ -369,7 +369,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Travis_Fernandes.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./TRAVIS_FERNANDES.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -378,11 +378,11 @@ L3 programming layer <2026-01-19>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-Package rerunfilecheck Warning: File `Travis_Fernandes.out' has changed.
+Package rerunfilecheck Warning: File `TRAVIS_FERNANDES.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `Travis_Fernandes.out':
+Package rerunfilecheck Info: Checksums for `TRAVIS_FERNANDES.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  0D1E4AB6D4AA75F3768EB93C7136CC34;503.
  ) 
@@ -400,7 +400,7 @@ ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
 r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Travis_Fernandes.pdf (1 page, 106296 bytes).
+Output written on TRAVIS_FERNANDES.pdf (1 page, 106296 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
