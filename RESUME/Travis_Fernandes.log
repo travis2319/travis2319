@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.21)  21 APR 2026 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.21)  21 APR 2026 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume.tex -o Travis_fernandes.pdf
+**resume.tex
 (./resume.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -301,8 +301,9 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
-) (./resume.aux)
-\openout1 = `resume.aux'.
+)
+No file Travis_Fernandes.aux.
+\openout1 = `Travis_Fernandes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
@@ -337,9 +338,8 @@ LaTeX Font Info:    ... okay on input line 73.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 73.
- (./resume.out) (./resume.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `Travis_Fernandes.out'.
 
 
 
@@ -369,36 +369,41 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Travis_Fernandes.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 
-
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 0D1E4AB6D4AA75F3768EB93C7136CC34;503.
+
+Package rerunfilecheck Warning: File `Travis_Fernandes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Travis_Fernandes.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  0D1E4AB6D4AA75F3768EB93C7136CC34;503.
  ) 
 Here is how much of TeX's memory you used:
- 10586 strings out of 469515
- 166754 string characters out of 5470807
- 619338 words of memory out of 5000000
- 39128 multiletter control sequences out of 15000+600000
+ 10573 strings out of 469515
+ 166681 string characters out of 5470807
+ 619387 words of memory out of 5000000
+ 39120 multiletter control sequences out of 15000+600000
  633313 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,79p,277b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,253b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
 r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 106610 bytes).
+Output written on Travis_Fernandes.pdf (1 page, 106296 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
