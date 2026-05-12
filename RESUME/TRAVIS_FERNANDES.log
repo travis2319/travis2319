@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.21)  1 MAY 2026 00:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.4.21)  2 MAY 2026 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -383,23 +383,24 @@ Package rerunfilecheck Info: File `TRAVIS_FERNANDES.out' has not changed.
 (rerunfilecheck)             Checksum: 0D1E4AB6D4AA75F3768EB93C7136CC34;503.
  ) 
 Here is how much of TeX's memory you used:
- 10587 strings out of 469515
- 166930 string characters out of 5470807
- 620388 words of memory out of 5000000
- 39128 multiletter control sequences out of 15000+600000
- 633313 words of font info for 62 fonts, out of 8000000 for 9000
+ 10589 strings out of 469515
+ 166954 string characters out of 5470807
+ 621388 words of memory out of 5000000
+ 39129 multiletter control sequences out of 15000+600000
+ 633672 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,79p,253b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,264b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TRAVIS_FERNANDES.pdf (1 page, 107352 bytes).
+ts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on TRAVIS_FERNANDES.pdf (1 page, 117281 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
